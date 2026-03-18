@@ -2,6 +2,13 @@
 
 Monorepo with FastAPI backend and Next.js frontend for a Notion-like workspace with analysis, recommendations, and guardrails.
 
+## Screenshots
+### Dashboard View (Health Score + Issues)
+<img width="1152" height="675" alt="Screenshot 2026-03-18 at 1 36 09 PM" src="https://github.com/user-attachments/assets/afb39925-3e33-4add-8796-7ada7878d8e3" />
+
+### Recommendations
+<img width="1151" height="453" alt="Screenshot 2026-03-18 at 1 36 28 PM" src="https://github.com/user-attachments/assets/a9e58622-c699-4030-8e64-3860a1c7decb" />
+
 ## Why This Exists
 
 Workspace Ops Agent helps teams keep their knowledge bases healthy. Notion-like workspaces grow organically and often accumulate stale pages, missing owners, oversized documents, and duplicate content. This tool analyzes workspace structure and content, surfaces issues, and suggests actionable recommendations—from archiving stale pages to splitting oversized ones—with optional AI-powered explanations and one-click apply.
