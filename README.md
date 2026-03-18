@@ -123,11 +123,3 @@ If this were productionized:
 - **Chunk metadata** enables future analytics (coverage gaps, stale docs)
 - **System** supports gradual rollout across teams
 
-## Future Work
-
-- **Notion/Confluence sync**: Connect to real Notion or Confluence APIs instead of seeded data.
-- **Guardrails**: Prevent applying recommendations that conflict with org policies (e.g. block archiving certain pages).
-- **Distributed rate limiting**: Replace in-memory limiter with Redis for multi-instance deployments.
-- **Persistent metrics**: Store `/metrics` data in DB or export to Prometheus for long-term observability.
-- **Batch apply**: Apply multiple recommendations at once with rollback support.
-- **Webhooks**: Notify external systems when recommendations are applied or issues are detected.
