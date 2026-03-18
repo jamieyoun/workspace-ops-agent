@@ -1,0 +1,10 @@
+{
+  "name": "workspace-ops",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"make dev-backend\" \"make dev-frontend\""
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.0"
+  }
+}

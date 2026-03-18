@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+.venv/
+__pycache__/
+*.pyc
+
+# Build
+.next/
+dist/
+*.egg-info/
+
+# Env
+.env
+.env.local
+
+# DB
+*.db
+*.sqlite
+test_workspace_ops.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
